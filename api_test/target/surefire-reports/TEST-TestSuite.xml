@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="18.467" tests="26" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\keial\IdeaProjects\Examen_Keyvin\target\test-classes;C:\Users\keial\IdeaProjects\Examen_Keyvin\target\classes;C:\Users\keial\.m2\repository\io\rest-assured\rest-assured\4.2.0\rest-assured-4.2.0.jar;C:\Users\keial\.m2\repository\org\codehaus\groovy\groovy\2.5.8\groovy-2.5.8.jar;C:\Users\keial\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.8\groovy-xml-2.5.8.jar;C:\Users\keial\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\keial\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\keial\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\keial\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\keial\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\keial\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\keial\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\keial\.m2\repository\io\rest-assured\json-path\4.2.0\json-path-4.2.0.jar;C:\Users\keial\.m2\repository\org\codehaus\groovy\groovy-json\2.5.8\groovy-json-2.5.8.jar;C:\Users\keial\.m2\repository\io\rest-assured\rest-assured-common\4.2.0\rest-assured-common-4.2.0.jar;C:\Users\keial\.m2\repository\io\rest-assured\xml-path\4.2.0\xml-path-4.2.0.jar;C:\Users\keial\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\keial\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\keial\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\keial\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\keial\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\keial\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\keial\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\keial\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\keial\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\keial\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.3\jackson-core-2.11.3.jar;C:\Users\keial\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.6.0\jackson-databind-2.6.0.jar;C:\Users\keial\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.6.0\jackson-annotations-2.6.0.jar;C:\Users\keial\.m2\repository\io\rest-assured\json-schema-validator\4.3.1\json-schema-validator-4.3.1.jar;C:\Users\keial\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.10\json-schema-validator-2.2.10.jar;C:\Users\keial\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.10\json-schema-core-1.2.10.jar;C:\Users\keial\.m2\repository\com\github\java-json-tools\jackson-coreutils\1.9\jackson-coreutils-1.9.jar;C:\Users\keial\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;C:\Users\keial\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\keial\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\keial\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\keial\.m2\repository\org\mozilla\rhino\1.7.7.1\rhino-1.7.7.1.jar;C:\Users\keial\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\keial\.m2\repository\joda-time\joda-time\2.9.7\joda-time-2.9.7.jar;C:\Users\keial\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.0.0\libphonenumber-8.0.0.jar;C:\Users\keial\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\keial\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Users\keial\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\keial\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Regina"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="MX"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\keial\AppData\Local\Temp\surefire2638592316138620072\surefirebooter5698742403385436811.jar C:\Users\keial\AppData\Local\Temp\surefire2638592316138620072 2021-03-18T21-03-40_028-jvmRun1 surefire8544561848885846453tmp surefire_06690736220779476523tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\keial\IdeaProjects\Examen_Keyvin\target\test-classes;C:\Users\keial\IdeaProjects\Examen_Keyvin\target\classes;C:\Users\keial\.m2\repository\io\rest-assured\rest-assured\4.2.0\rest-assured-4.2.0.jar;C:\Users\keial\.m2\repository\org\codehaus\groovy\groovy\2.5.8\groovy-2.5.8.jar;C:\Users\keial\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.8\groovy-xml-2.5.8.jar;C:\Users\keial\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\keial\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\keial\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\keial\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\keial\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\keial\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\keial\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\keial\.m2\repository\io\rest-assured\json-path\4.2.0\json-path-4.2.0.jar;C:\Users\keial\.m2\repository\org\codehaus\groovy\groovy-json\2.5.8\groovy-json-2.5.8.jar;C:\Users\keial\.m2\repository\io\rest-assured\rest-assured-common\4.2.0\rest-assured-common-4.2.0.jar;C:\Users\keial\.m2\repository\io\rest-assured\xml-path\4.2.0\xml-path-4.2.0.jar;C:\Users\keial\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\keial\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\keial\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\keial\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\keial\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\keial\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\keial\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\keial\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\keial\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\keial\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.3\jackson-core-2.11.3.jar;C:\Users\keial\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.6.0\jackson-databind-2.6.0.jar;C:\Users\keial\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.6.0\jackson-annotations-2.6.0.jar;C:\Users\keial\.m2\repository\io\rest-assured\json-schema-validator\4.3.1\json-schema-validator-4.3.1.jar;C:\Users\keial\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.10\json-schema-validator-2.2.10.jar;C:\Users\keial\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.10\json-schema-core-1.2.10.jar;C:\Users\keial\.m2\repository\com\github\java-json-tools\jackson-coreutils\1.9\jackson-coreutils-1.9.jar;C:\Users\keial\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;C:\Users\keial\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\keial\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\keial\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\keial\.m2\repository\org\mozilla\rhino\1.7.7.1\rhino-1.7.7.1.jar;C:\Users\keial\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\keial\.m2\repository\joda-time\joda-time\2.9.7\joda-time-2.9.7.jar;C:\Users\keial\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.0.0\libphonenumber-8.0.0.jar;C:\Users\keial\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\keial\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Users\keial\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\keial\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\keial"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_271\jre"/>
+    <property name="basedir" value="C:\Users\keial\IdeaProjects\Examen_Keyvin"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\keial\AppData\Local\Temp\surefire2638592316138620072\surefirebooter5698742403385436811.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="user.name" value="keial"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\keial\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\keial\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="user.dir" value="C:\Users\keial\IdeaProjects\Examen_Keyvin"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\keial\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\apache-maven-3.6.3\bin;C:\Users\keial\AppData\Local\Microsoft\WindowsApps;C:\Users\keial\AppData\Local\atom\bin;C:\Users\keial\AppData\Roaming\npm;C:\Users\keial\AppData\Local\Microsoft\WindowsApps;C:\Users\keial\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\keial\AppData\Roaming\nvm;C:\Program Files\nodejs;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Test_Creat_User_Already_Exist" classname="UserTests" time="1.818"/>
+  <testcase name="Test_Creat_Post_Success" classname="PostTests" time="0.603"/>
+  <testcase name="Test_Creat_User_Successful" classname="UserTests" time="0.142"/>
+  <testcase name="Test_Creat_Post_Unsuccessful" classname="PostTests" time="1.435"/>
+  <testcase name="Test_Creat_Comment_Success" classname="CommentTest" time="0.505"/>
+  <testcase name="Test_Creat_Comment_Unsuccessful" classname="CommentTest" time="0.497"/>
+  <testcase name="Test_Delete_Comment_Success" classname="CommentTest" time="0.551"/>
+  <testcase name="Test_Delete_Comment_Unsuccessful" classname="CommentTest" time="0.532"/>
+  <testcase name="Test_Delete_Post_Success" classname="PostTests" time="0.61"/>
+  <testcase name="Test_Delete_Post_Unsuccessful" classname="PostTests" time="0.318"/>
+  <testcase name="Test_Get_All_Comments_Success" classname="CommentTest" time="0.234"/>
+  <testcase name="Test_Get_All_Comments_Unsuccessful" classname="CommentTest" time="1.176"/>
+  <testcase name="Test_Get_All_Post_Success" classname="PostTests" time="0.052"/>
+  <testcase name="Test_Get_All_Post_Unsuccessful" classname="PostTests" time="0.544"/>
+  <testcase name="Test_One_Comment_Success" classname="CommentTest" time="0.547"/>
+  <testcase name="Test_One_Comment_Unsuccessful" classname="CommentTest" time="0.539"/>
+  <testcase name="Test_Update_Comment_Success" classname="CommentTest" time="0.5"/>
+  <testcase name="Test_Update_Comment_Unsuccessful" classname="CommentTest" time="0.246"/>
+  <testcase name="Test_last_Comments_created" classname="CommentTest" time="0.592"/>
+  <testcase name="Test_One_Post_Success" classname="PostTests" time="0.373"/>
+  <testcase name="ATest_PING_ENDPOINT" classname="MiscTests" time="1.057"/>
+  <testcase name="Test_One_Post_Unsuccessful" classname="PostTests" time="0.361"/>
+  <testcase name="BTest_HomePage_Response" classname="MiscTests" time="0.217"/>
+  <testcase name="Test_Update_Post_Success" classname="PostTests" time="1.444"/>
+  <testcase name="Test_Update_Post_Unsuccessful" classname="PostTests" time="1.292"/>
+  <testcase name="Test_last_Post_created" classname="PostTests" time="1.253"/>
+</testsuite>
